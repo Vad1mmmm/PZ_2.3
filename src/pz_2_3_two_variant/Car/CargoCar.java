@@ -31,6 +31,7 @@ public class CargoCar extends Car{
         return "Автомобіль " + this.getModel() + " вирушає в дорогу. \nЗапас ходу - " + reserveFuel + " км/" + kilometrsCount + " км \nЗавантаженість - " + this.cargoCapacity + " \nТип вантажу - " + this.cargoType + "\n";
     }
 
+    @Override
     public String toString(){
         return super.toString() + ", вантажопідйомність: " + cargoCapacity + ", тип вантажу: " +  cargoType + ", тип трансмісії: " +  transmisionType;
     }

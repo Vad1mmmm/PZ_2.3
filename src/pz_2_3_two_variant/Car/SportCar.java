@@ -29,7 +29,7 @@ public class SportCar extends Car{
                 "Насолоджуйтесь драйвом!\n";
     }
 
-
+    @Override
     public String toString() {
         return super.toString() + ", максимальна швидкість: " + maxSpeed + ", розгін 0 - 100 (км/год): " + fastestSpeed;
     }

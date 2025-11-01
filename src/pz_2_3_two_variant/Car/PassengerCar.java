@@ -26,7 +26,7 @@ public class PassengerCar extends Car {
                 "Поїздка буде комфортною та безпечною!\n";
     }
 
-
+    @Override
     public String toString() {
         return super.toString() + ", кількість пасажирів: " + passengerCount + ", максимальна вага багажу: " +  baggageWeigth;
     }
